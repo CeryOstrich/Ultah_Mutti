@@ -2,23 +2,28 @@
 <html lang="id">
 
 <head>
+    <!-- 🔥 PENTING: base path untuk GitHub Pages -->
+    <base href="/Ultah_Mutti/">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday Utti!</title>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap"
         rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Hero / Landing Section -->
+    <!-- Hero Section -->
     <section class="hero" id="home">
-        <!-- Floating Balloons -->
         <div class="balloon-container">
             <div class="balloon b1"></div>
             <div class="balloon b2"></div>
@@ -32,13 +37,14 @@
 
         <div class="container hero-content">
             <h1 class="fade-in-up">Happy Birthday,<br><span class="highlight">UTTIII</span></h1>
-            <p class="subtitle fade-in-up delay-1">A small page,
-                for a day that matters ✨</p>
-            <button id="startBtn" class="cta-button fade-in-up delay-2">Play Music & Masuk Cerita 🎧</button>
+            <p class="subtitle fade-in-up delay-1">A small page, for a day that matters ✨</p>
+            <button id="startBtn" class="cta-button fade-in-up delay-2">
+                Play Music & Masuk Cerita 🎧
+            </button>
         </div>
     </section>
 
-    <!-- Spotify Music Section -->
+    <!-- Music Section -->
     <section id="music-intro" class="music-section">
         <div class="container">
             <p class="music-text fade-on-scroll">"Just a song for this moment"</p>
@@ -51,7 +57,7 @@
         </div>
     </section>
 
-    <!-- Interactive Cake Section -->
+    <!-- Cake Section -->
     <section class="cake-section fade-on-scroll">
         <div class="container">
             <div class="cake-container" id="cakeContainer">
@@ -66,7 +72,7 @@
         </div>
     </section>
 
-    <!-- Message Section / Digital Letter -->
+    <!-- Letter Section -->
     <section class="story-section" id="story">
         <div class="container">
             <div class="letter-card fade-on-scroll">
@@ -76,16 +82,16 @@
                 <div class="letter-body">
                     <p>Hai, Utti...</p>
                     <p>
-                        Selamat ulang tahun! 🎉 <br>
+                        Selamat ulang tahun! 🎉<br>
                         Gatau harus mulai dari mana, tapi aku cuma pengen bilang terima kasih.
                     </p>
                     <p>
-                        Semoga di usia yang baru ini, kamu semakin bahagia, semakin kuat, dan semua impianmu tercapai.
-                        tetep jadi bocil yaaaaa walaupun udah 21 tahuun.
+                        Semoga di usia yang baru ini, kamu semakin bahagia, semakin kuat,
+                        dan semua impianmu tercapai. Tetep jadi bocil ya walaupun udah 21 😆
                     </p>
                     <p>
-                        Stay healthy, stay happy, and stay wonderful. <br>
-                        ✨ “Today is yours — enjoy every moment of it.” ✨
+                        Stay healthy, stay happy, and stay wonderful.<br>
+                        ✨ Today is yours — enjoy every moment of it ✨
                     </p>
                 </div>
                 <div class="letter-footer">
@@ -96,29 +102,28 @@
         </div>
     </section>
 
-    <!-- Timeline Section -->
-    <!-- Moments That Stay Section -->
+    <!-- Moments Section -->
     <section class="moments-section" id="moments">
         <div class="container">
             <h2 class="section-title fade-on-scroll">Moments That Stay</h2>
             <div class="moments-list">
                 <div class="moment-item fade-on-scroll">
-                    <p>“The way you smile when you don’t even realize it”</p>
+                    <p>The way you smile</p>
                 </div>
                 <div class="moment-item fade-on-scroll delay-1">
-                    <p>“Small conversations that somehow meant a lot”</p>
+                    <p>Small conversations</p>
                 </div>
                 <div class="moment-item fade-on-scroll delay-2">
-                    <p>“Quiet moments that felt comfortable”</p>
+                    <p>Quiet comfort</p>
                 </div>
                 <div class="moment-item fade-on-scroll">
-                    <p>“Laughter that made the day feel lighter”</p>
+                    <p>Laughter</p>
                 </div>
                 <div class="moment-item fade-on-scroll delay-1">
-                    <p>“Unplanned moments that stayed”</p>
+                    <p>Unplanned moments</p>
                 </div>
                 <div class="moment-item fade-on-scroll delay-2">
-                    <p>“Simple things, quietly remembered”</p>
+                    <p>Simple things</p>
                 </div>
             </div>
         </div>
@@ -128,71 +133,74 @@
     <section class="gallery-section" id="gallery">
         <div class="container">
             <h2 class="gallery-title fade-on-scroll">Frames that stay 📸</h2>
+
             <div class="gallery-grid">
-                <!-- Gallery Item 1 -->
                 <div class="gallery-item fade-on-scroll">
-                    <img src="./asset/1.JPG" alt="Memory 1" class="gallery-img" data-caption="our first photo together">
+                    <img src="asset/1.jpg" class="gallery-img" alt="Memory 1" data-caption="our first photo together">
                 </div>
-                <!-- Gallery Item 2 -->
+
                 <div class="gallery-item fade-on-scroll delay-1">
-                    <img src="./asset/2.jpg" alt="Memory 2" class="gallery-img" data-caption="day in the lab">
+                    <img src="asset/2.jpg" class="gallery-img" alt="Memory 2" data-caption="day in the lab">
                 </div>
-                <!-- Gallery Item 3 -->
+
                 <div class="gallery-item fade-on-scroll delay-2">
-                    <img src="./asset/3.jpg" alt="Memory 3" class="gallery-img" data-caption="Malino with Disdikbud">
+                    <img src="asset/3.jpg" class="gallery-img" alt="Memory 3" data-caption="Malino with Disdikbud">
                 </div>
-                <!-- Gallery Item 4 -->
+
                 <div class="gallery-item fade-on-scroll">
-                    <img src="./asset/4.JPG" alt="Memory 4" class="gallery-img" data-caption="Bira with Informatichs">
+                    <img src="asset/4.jpg" class="gallery-img" alt="Memory 4" data-caption="Bira with Informatics">
                 </div>
-                <!-- Gallery Item 5 -->
+
                 <div class="gallery-item fade-on-scroll delay-1">
-                    <img src="./asset/5.jpg" alt="Memory 5" class="gallery-img" data-caption="Salopi with HMIT">
+                    <img src="asset/5.jpg" class="gallery-img" alt="Memory 5" data-caption="Salopi with HMIT">
                 </div>
-                <!-- Gallery Item 6 -->
+
                 <div class="gallery-item fade-on-scroll delay-2">
-                    <img src="./asset/6.jpg" alt="Memory 6" class="galleryimg" data-caption="Just u n me">
+                    <img src="asset/6.jpg" class="gallery-img" alt="Memory 6" data-caption="Just u n me">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Hidden Message Section -->
+    <!-- Hidden Message -->
     <section class="hidden-message-section">
         <div class="container">
             <button id="comfortBtn" class="comfort-button">Rehat Sejenak 🍵</button>
             <div id="comfortMessage" class="comfort-message hidden">
                 <div class="comfort-card">
                     <h3>🤗</h3>
-                    <p>"If someday everything feels heavy"<br>
-                        feel free to run to me<br>
-                        "Because i'd rather have you crying in my arms instead of you feeling alone"</p>
+                    <p>
+                        If someday everything feels heavy,<br>
+                        feel free to run to me.<br>
+                        I'd rather have you crying in my arms
+                        than feeling alone.
+                    </p>
                     <span class="heart-pulse">❤️</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Image Modal -->
+    <!-- Modal -->
     <div id="imageModal" class="modal">
         <span class="close-modal">&times;</span>
-        <img class="modal-content" id="modalImg">
+        <img id="modalImg" class="modal-content">
         <div id="caption"></div>
     </div>
 
-    <!-- Closing Section -->
+    <!-- Closing -->
     <section class="closing-section">
         <div class="container fade-on-scroll">
-            <h2 class="closing-text">"Terima kasih sudah jadi diri sendiri."</h2>
-            <p class="closing-subtext">Semoga tahun ini lebih baik dari sebelumnya.</p>
+            <h2>"Terima kasih sudah jadi diri sendiri."</h2>
+            <p>Semoga tahun ini lebih baik dari sebelumnya.</p>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <p>Made with ❤️ for U</p>
     </footer>
 
+    <!-- JS -->
     <script src="script.js"></script>
 </body>
 
